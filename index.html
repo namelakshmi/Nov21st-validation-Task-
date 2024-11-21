@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+
+<body>
+    <form action="LoginSucess.html" method="get">
+        <fieldset>
+
+            <center>
+                <table>
+                    <tr>
+                        <td><label for="un"><b>Username</b></label><br>
+                            <input type="text" id="un" pattern="+." placeholder="username"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Password"><b>password</b></label><br>
+                            <input type="text" placeholder="password" id="password" pattern="[a-zA-Z\d!&*@]{8-15}"
+                                required title="Please enter min 8 and max 15"><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit"> login </button></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="">Forget Password</a>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="register.html">Register</a>
+                        </td>
+                    </tr>
+                </table>
+
+            </center>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
